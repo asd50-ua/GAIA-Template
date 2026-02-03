@@ -126,3 +126,8 @@
    - **Type**: FE
    - **Description**: UI controls (Dropdown/Tabs) to switch views.
    - **Scope**: State management for filters, re-fetching tasks with params.
+
+2. - [ ] **TM-BUG-002 — Fix Tailwind CSS PostCSS Configuration**
+   - **Type**: DEV
+   - **Description**: Install `@tailwindcss/postcss` and update `postcss.config.js` to support Tailwind v4.
+   - **Scope**: `frontend/package.json`, `frontend/postcss.config.js`.
