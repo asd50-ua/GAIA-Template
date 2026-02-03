@@ -134,7 +134,7 @@
    - **Description**: Upgrade `frontend/Dockerfile` base image to Node 20+, as Vite requires it. Fixes `crypto.hash is not a function`.
    - **Scope**: `frontend/Dockerfile`.
 
-2. - [ ] **TM-BUG-002 — Fix Tailwind CSS PostCSS Configuration**
+2. - [x] **TM-BUG-002 — Fix Tailwind CSS PostCSS Configuration** (2026-02-03)
    - **Type**: DEV
    - **Description**: Install `@tailwindcss/postcss` and update `postcss.config.js` to support Tailwind v4.
    - **Scope**: `frontend/package.json`, `frontend/postcss.config.js`.
