@@ -126,3 +126,10 @@
    - **Type**: FE
    - **Description**: UI controls (Dropdown/Tabs) to switch views.
    - **Scope**: State management for filters, re-fetching tasks with params.
+
+### Bug Fixes
+
+1. - [x] **TM-BUG-001 — Fix Vite Node Version Incompatibility** (2026-02-03)
+   - **Type**: DEV
+   - **Description**: Upgrade `frontend/Dockerfile` base image to Node 20+, as Vite requires it. Fixes `crypto.hash is not a function`.
+   - **Scope**: `frontend/Dockerfile`.
