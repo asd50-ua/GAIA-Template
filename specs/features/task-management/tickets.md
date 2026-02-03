@@ -17,7 +17,7 @@
    - **Scope**: Migration script + Rollback.
    - **Dependencies**: Users table.
 
-2. - [ ] **TM-STUDENT-001-BE-T01 — Create Task Endpoint**
+2. - [x] **TM-STUDENT-001-BE-T01 — Create Task Endpoint** (2026-02-03)
    - **Type**: BE
    - **Description**: Implement `POST /api/v1/tasks`. Validates input (Pydantic). Enforces `user_id` from auth context. Returns 201 Created.
    - **Scope**: Controller, Service, Repository, DTOs, Unit Tests.
