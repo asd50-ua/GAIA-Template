@@ -22,7 +22,7 @@
    - **Description**: Implement `POST /api/v1/tasks`. Validates input (Pydantic). Enforces `user_id` from auth context. Returns 201 Created.
    - **Scope**: Controller, Service, Repository, DTOs, Unit Tests.
 
-3. - [ ] **TM-STUDENT-001-FE-T01 — Task Creation Form**
+3. - [x] **TM-STUDENT-001-FE-T01 — Task Creation Form** (2026-02-03)
    - **Type**: FE
    - **Description**: UI component to input title, description, deadline. Uses Zod for validation (Title required).
    - **Scope**: Component, API Client integration, React Query mutation.
